@@ -5,10 +5,9 @@ import Footer from "../component/Footer";
 import Metabnb from "../component/Metabnb";
 import Token from "../component/Token";
 import Navbar from "../component/Navbar";
-
 export default function Home() {
   return <div>
-    <Navbar/>
+    <Navbar />
     <Hero />
     <Token />
     <Card />
