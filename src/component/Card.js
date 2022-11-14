@@ -1,13 +1,13 @@
 import React from "react";
 import frame1 from "../asset/Frame1.png"
 import star from "../asset/starrating.png"
-import frame2 from "../asset/Frame2.svg"
-import frame3 from "../asset/Frame3.svg"
-import frame4 from "../asset/Frame4.svg"
-import frame5 from "../asset/Frame5.svg"
-import frame6 from "../asset/Frame6.svg"
-import frame7 from "../asset/Frame7.svg"
-import frame8 from "../asset/Frame8.svg"
+import frame2 from "../asset/frame2.png"
+import frame3 from "../asset/Frame3.png"
+import frame4 from "../asset/Frame4.png"
+import frame5 from "../asset/Frame5.png"
+import frame6 from "../asset/Frame6.png"
+import frame7 from "../asset/Frame7.png"
+import frame8 from "../asset/Frame8.png"
 
 export default function Card() {
   return <div className="card--section px-4">
