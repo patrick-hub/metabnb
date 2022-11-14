@@ -26,10 +26,10 @@ export default function Navbar(){
                            <Link to="../Pages/Places" className="text-decoration-none text-dark">Place to stay</Link>
                            </li>
                             <li className="nav-item ms-4 nav-font">
-                                <a className="active" aria-current="page" href="">NFTs</a>
+                                NFTs
                             </li>
                             <li className="nav-item ms-4 nav-font">
-                                <a className="active" aria-current="page" href="">Community</a>
+                               Community
                             </li>
                         </ul>
                         <div>
