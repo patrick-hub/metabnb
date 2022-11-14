@@ -1,5 +1,5 @@
 import React from "react";
-import metahouses from "../asset/metahouses.svg"
+import metahouses from "../asset/metahouses.png"
 
 export default function Metabnb() {
   return <div className="metabnb p-5 ">
