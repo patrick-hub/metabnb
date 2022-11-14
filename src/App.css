@@ -1,38 +1,414 @@
-.App {
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Red Rose';
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  font-family: 'Red Rose';
+  font-size: 20px;
+}
+.ul {
+  display: flex;
+}
+.connect--button {
+  margin-left: 220px;
+
+}
+
+
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-style: none;
+
+}
+
+.location {
+  margin-top: -9px;
+  border-style: none;
+  border-color: #000;
+}
+
+.location img{
+  position: absolute;
+  top: 9px;
+  right: 10px;
+}
+
+/* modal */
+ .modal {
+  margin-top: 200px;
+  border-radius: 16px;
+  font-weight: bold;
+  padding: 20px;
+
+ }
+
+ .meta--body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #CFD8DC;
+  border-radius: 12px; 
+  margin: 10px;
+  background: #F8F9FA;
+  height: 50px;
+  font-weight: bold;
+ }
+ 
+.connect_btn {
+font-family: 'Red Rose';
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+ color: #fff;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+border-radius: 10px;
+}
+
+.connect_btn:active{
+  cursor: pointer;
+  color: #fff;
+}
+
+.connect_btn:hover {
+  Color: #FFF;
+}
+
+.pts {
+  text-decoration: none;
+}
+.pts:hover {
+  cursor: pointer;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.hero_content h2 {
+width: 646px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 78px;
+letter-spacing: -0.02em;
+
+}
+
+.hero_content p {
+  font-family: 'Red Rose';
+  width: 636px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.hero_content span {
+  color: #a63081;
+}
+
+/* card */
+.card--section h2 {
+  padding-top: 30px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  width: 292px;
+  font-size: 12px;
+  font-family: 'Red Rose';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card--img {
+  width: 270px;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card--stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.all--cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 0 auto;
+}
+.search input {
+  width: 390px;
+}
+
+.searchBtn {
+height: 54px;
+width: 230px;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+border-radius: 8px;
+margin-left: -5px;
+color: #fff;
+}
+
+
+.token_footer {
+display: flex;
+height: 50px;
+padding: 10px;
+justify-content: space-around;
+background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+
+
+.metabnb {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #A02279;
+  margin-top: 10px;
+  padding: 70px;
+  height: 774px;
 }
 
-.App-link {
-  color: #61dafb;
+.meta_content {
+  width: 415px;
+  color: #fff;
+  font-family: 'Red Rose';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.meta_content h2 {
+  font-weight: 700;
+  font-size: 48px;
+
+}
+
+.meta_content button {
+  color:#A02279;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.places--footer {
+margin-top: 70px;
+}
+
+.footer_logo ul {
+  margin-top: 60px;
+}
+
+.icons{
+  display: flex;
+  justify-content: flex-start;
+  gap: 35px;
+
+
+  margin-top: 90px;
+}
+
+.copyright{
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
   }
-  to {
-    transform: rotate(360deg);
+
+  .hero_content {
+    width: 400px;
+  }
+
+  .hero_content h2{
+    width: 380px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+     
+    }
+
+    .hero_content p {
+      font-family: 'Red Rose';
+      width: 300px;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: none;
+    }
+
+    .search input {
+      width: 200px;
+    }
+    
+    .searchBtn {
+    height: 54px;
+    width: 150px;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+    border-radius: 8px;
+    margin-left: -5px;
+    color: #fff;
+    }
+
+  .hero img {
+    width: 300px;
+  }
+
+  .all--cards {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 10px;
+    margin: 0 auto;
+    align-content: center;
+  }
+
+  .metabnb img {
+    width: 300px;
+  }
+
+  .options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
+
+
+@media screen and (max-width: 700px) {
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero_content P {
+    width: 400px;
+  }
+  
+  .hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .heroImages {
+    margin-top: 20px;
+  }
+
+
+  .token_footer img{
+   width: 90px;
+  }
+
+  .all--cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .metabnb {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .meta_content p {
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+
+  .metaImg img{
+    width: 350px;
+  }
+
+  .metafooter {
+    width: 200px;
+  }
+
+  .footer_logo {
+    display: flex;
+  justify-content: space-between;
+    padding: none;
+    
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer_logo {
+    display: flex;
+    flex-direction: column;
+    padding: none;
+    
+  }
+
+
+  .footer_logo ul {
+    padding: 30px;
+    text-align: center;
+  }
+
+  .metafooter {
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+
+  .modal {
+    margin-top: 300px;
+    max-width: 350px;
+  
+  
+   }
+  
+}
+
+
+
+
+
