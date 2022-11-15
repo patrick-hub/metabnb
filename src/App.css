@@ -344,6 +344,9 @@ margin-top: 70px;
     justify-content: center;
     text-align: center;
   }
+  .hero_content p {
+    width: 350px;
+  }
 
   .heroImages {
     margin-top: 20px;
@@ -411,7 +414,7 @@ margin-top: 70px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
 
   .navimages img {
     width: 90px;
@@ -444,6 +447,19 @@ margin-top: 70px;
     margin-top: 300px;
     max-width: 350px;
   
+   }
+
+   .meta_content p{
+    width: 350px;
+   }
+
+   .meta_content {
+  width: 350px;
+   }
+   .metabnb img{
+    width: 270px;
+    padding: none;
+    margin: none;
    }
   
 }
