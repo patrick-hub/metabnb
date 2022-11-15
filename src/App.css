@@ -348,8 +348,6 @@ margin-top: 70px;
   .heroImages {
     margin-top: 20px;
   }
-
-
   .token_footer img{
    width: 90px;
   }
@@ -384,7 +382,7 @@ margin-top: 70px;
   }
 
   .footer_logo {
-    display: flex;
+  display: flex;
   justify-content: space-between;
     padding: none;
     
@@ -393,12 +391,35 @@ margin-top: 70px;
 }
 
 @media screen and (max-width: 600px) {
+  .navimages img {
+    width: 120px;
+  }
+
+  .homeimg {
+    max-width: 40px;
+  }
   .options {
     display: none;
+  }
+
+  .footer_logo {
+    display: flex;
+    flex-direction: column;
+    padding: none;
+    align-items: center;
+    
   }
 }
 
 @media screen and (max-width: 375px) {
+
+  .navimages img {
+    width: 90px;
+  }
+
+  .homeimg {
+    max-width: 30px;
+  }
   .hero_content {
     display: flex;
     flex-direction: column;
@@ -407,28 +428,16 @@ margin-top: 70px;
     text-align: center;
   }
 
-  .footer_logo {
-    display: flex;
-    flex-direction: column;
-    padding: none;
-    
-  }
-
-
-  .footer_logo ul {
-    padding: 30px;
-    text-align: center;
-  }
-
-  .metafooter {
-    padding: 30px;
-    margin: 0 auto;
-  }
-
   .options {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .location {
+    position: absolute;
+    left: 90px;
   }
 
   .modal {

@@ -8,8 +8,8 @@ export default function Navbar(){
         <div >
             <nav id="mynav" className="navbar navbar-expand-lg navbar-light nav-pad">
                 <div className="container-fluid">
-                    <div>
-                    <img src={home} alt="logo" />
+                    <div className="d-flex navimages" >
+                    <img src={home} alt="logo" className="homeimg"/>
                 <img src={metabnb} alt="logo" />
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
