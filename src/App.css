@@ -295,14 +295,17 @@ margin-top: 70px;
     width: 300px;
   }
 
-  .all--cards {
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-gap: 10px;
-    margin: 0 auto;
-    align-content: center;
+  .card {
+    width: 270px;
   }
 
+  .card {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
   .metabnb img {
     width: 300px;
   }
@@ -313,18 +316,18 @@ margin-top: 70px;
   }
 }
 
+@media screen and (max-width: 990px) {
+  .all--cards {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin-left: 30px;
+  }
+
+  
+}
+
 
 @media screen and (max-width: 700px) {
-
-  .navbar {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .nav {
-    display: flex;
-    flex-direction: column;
-  }
 
   .hero_content P {
     width: 400px;
@@ -356,12 +359,12 @@ margin-top: 70px;
   }
 
   .all--cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    align-content: center;
     margin: 0 auto;
   }
+
 
   .metabnb {
     display: flex;
@@ -387,7 +390,7 @@ margin-top: 70px;
   .footer_logo {
   display: flex;
   justify-content: space-between;
-    padding: none;
+  padding: none;
     
   }
 
